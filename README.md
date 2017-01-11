@@ -7,9 +7,12 @@ This is a compressed suffix tree based infinite context size language model capa
 
 This code is the basis of the following papers:
 
-- Ehsan Shareghi, Matthias Petri, Gholamreza Haffari, Trevor Cohn: Compact, Efficient and Unlimited Capacity: Language Modeling with Compressed Suffix Trees. EMNLP 2015: 2409-2418
+- Ehsan Shareghi, Matthias Petri, Gholamreza Haffari, Trevor Cohn: Compact, Efficient and Unlimited Capacity: Language Modeling with Compressed Suffix Trees. EMNLP 2015: 2409-2418 ([link](http://aclweb.org/anthology/D/D15/D15-1288.pdf))
 
-- TBA
+- Ehsan Shareghi, Matthias Petri, Gholamreza Haffari, Trevor Cohn: Fast, Small and Exact: Infinite-order Language Modelling with Compressed Suffix Trees. TACL 2016 : 477-490 ([link](https://transacl.org/ojs/index.php/tacl/article/view/865))
+
+
+Please cite one of our EMNLP2015 and TACL2016 papers, if you use our code!
 
 ## Compile instructions
 
