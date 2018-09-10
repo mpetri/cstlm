@@ -53,11 +53,11 @@ endif()
 
 add_subdirectory(external/sdsl-lite)
 
-include_directories(${CMAKE_HOME_DIRECTORY}/include/cstlm/
-                    ${CMAKE_HOME_DIRECTORY}/external/googletest/include
-                    ${CMAKE_HOME_DIRECTORY}/external/mem_monitor/
-                    ${CMAKE_BINARY_DIR}/external/sdsl-lite/include
-                    ${CMAKE_BINARY_DIR}/external/sdsl-lite/external/libdivsufsort/include/
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/cstlm/
+                    ${CMAKE_CURRENT_SOURCE_DIR}/external/googletest/include
+                    ${CMAKE_CURRENT_SOURCE_DIR}/external/mem_monitor/
+                    ${CMAKE_CURRENT_BINARY_DIR}/external/sdsl-lite/include
+                    ${CMAKE_CURRENT_BINARY_DIR}/external/sdsl-lite/external/libdivsufsort/include/
                     )
 
 add_executable(build-index.x src/build-index.cpp)
